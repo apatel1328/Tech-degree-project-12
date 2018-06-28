@@ -85,6 +85,8 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    min-width: 400px;
+    min-height: 700px;
 }
 
 .hero-text {
@@ -178,12 +180,15 @@ p {
 	margin-bottom: 50px;
 }
 
-.sample div button {
+.sample div div {
 	background: none;
 	border: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
 }
 
-.sample div button a {
+.sample div div a {
 	text-decoration: none;
     font-size: 16px;
     background-color: #333;
@@ -193,7 +198,7 @@ p {
     text-transform: uppercase;
 }
 
-.sample div button a:hover {
+.sample div div a:hover {
 	opacity: .9;
 }
 
@@ -223,7 +228,7 @@ p {
 	border: 1px solid white;
     width: 50%;
     margin: auto;
-    padding: 50px;
+    padding: 10px 20px;
 }
 
 .email {
@@ -281,7 +286,7 @@ p {
 	}
 
 	.sample div {
-		width: 50%;
+		width: 95%;
 		margin: 0 50px;
 		text-align: right;
 	}
